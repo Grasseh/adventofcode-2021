@@ -34,11 +34,6 @@
 (defn int-this [string]
   (Integer/parseInt string))
 
-(defn convert-to-movement [line]
-  (let [data (str/split line #" ")]
-    (call (first data) (int-this (second data)))
-  ))
-
 (defn move [accumulator incoming]
   (let [data (str/split incoming #" ")]
     (call (first data) (int-this (second data)) accumulator)
