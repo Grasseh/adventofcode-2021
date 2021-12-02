@@ -1,6 +1,8 @@
 (ns adventofcode2021.core
   (:gen-class)
   (:require [adventofcode2021.problems.day0a :as day0a])
+  (:require [adventofcode2021.problems.day01a :as day01a])
+  (:require [adventofcode2021.problems.day01b :as day01b])
   )
 
 (defn call [nspace nm & args]
