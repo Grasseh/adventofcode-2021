@@ -9,6 +9,8 @@
   (:require [adventofcode2021.problems.day03b :as day03b])
   (:require [adventofcode2021.problems.day04a :as day04a])
   (:require [adventofcode2021.problems.day04b :as day04b])
+  (:require [adventofcode2021.problems.day05a :as day05a])
+  (:require [adventofcode2021.problems.day05b :as day05b])
   )
 
 (defn call [nspace nm & args]
